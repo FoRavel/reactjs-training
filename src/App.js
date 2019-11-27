@@ -7,9 +7,11 @@ import './custom.scss';
 function App() {
   return (
     <div className="container">
-      
-      <form>
-        <input type="text" className="form-control"/>
+      <div className="messages border">
+      </div>
+      <form className="form-inline">
+          <input type="text" className="form-control rounded-0 flex-fill" />
+          <input type="button" value="Envoyer" className="btn btn-primary rounded-0" />
       </form>
     </div>
   );
